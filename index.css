@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .building {
+    display: flex;
+    height: 95%;
+    /* flex-direction:row-reverse; */
+  }
+  
+  .elevator-shaft {
+    width: 100px;
+    background-color: #33333385;
+    border: 1px solid #000;
+  }
+
+  .shaft-numb{
+    display: flex; 
+    justify-content: center; 
+    background-color: #ece5e585;
+    font-size: 10px;
+  }
+  
+  .elevator1 {
+    width: 100px;
+    background-color: #4339ca;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position:absolute;
+    /* position: relative; */
+  }
+  .elevator2 {
+    width: 100px;
+    background-color: #4339ca;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position:absolute;
+  }
+  
+  .elevator-door {
+    width: 50%;
+    height: 100%;
+    background-color: #11111181;
+    position: absolute;
+  }
+  
+  .elevator-floor1 {
+    background-color: #7777777e;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .elevator-floor2 {
+    background-color: #7777777e;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    font-size: 100%;
+    font-weight: bold;
+  }
+  
+  .floors {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  
+  .floor {
+    background-color: #9c6b3385;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid red;
+  }
+  
+  .elevator-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    background-color: rgba(38, 85, 85, 0.486);
+  }
+  
+  #current-floor {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
